@@ -10,7 +10,10 @@ const Navbar = () => {
             <Link href="/" className='flex justify-center items-center'>
                 <Image src="logo.svg" alt="Car Hub Logo" width={118} height={18} className='object-contain'/>
             </Link>
-            <CustomButtom title="Sign In" btnType="button" containerStyles='text-primary-blue rounded-full bg-white min-w-[130px] hover:bg-primary-blue text-white' />
+            <CustomButtom 
+            title="Sign In" 
+            btnType="button" 
+            containerStyles='text-primary-blue rounded-full bg-white min-w-[130px] hover:text-white hover:bg-primary-blue' />
         </nav>
     </header>
   )
