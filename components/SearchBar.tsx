@@ -2,18 +2,18 @@
 
 import { useState } from "react"
 import SearchManufacturer from "./SearchManufacturer"
-import Manofacturer from './SearchManufacturer';
-import { manufacturer } from '../constants/index';
+import Manufacturer from './SearchManufacturer';
+import { manufacturers } from '../constants/index';
 
 const SearchBar = () => {
-    const [manufacturer, setManufacturer] = useState('')
+    const [manufacturers, setManufacturer] = useState('')
 
     const handleSearch = () => {}
 
   return (
     <form className='searchbar' onSubmit={handleSearch}>
         <div className="searchbar__item">
-            <SearchManufacturer manufacturer={manufacturer} setManufacturer={setManufacturer}/>
+            <SearchManufacturer manufacturer={manufacturers} setManufacturer={setManufacturer}/>
         </div>
     </form>
   )

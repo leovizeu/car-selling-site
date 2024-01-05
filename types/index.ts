@@ -1,5 +1,5 @@
 import { MouseEventHandler } from "react";
-import { manufacturer } from '../constants/index';
+import { manufacturers } from '../constants/index';
 
 export interface CustomButtomProps {
     title: string;
