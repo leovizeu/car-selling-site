@@ -6,14 +6,14 @@ import Manufacturer from './SearchManufacturer';
 import { manufacturers } from '../constants/index';
 
 const SearchBar = () => {
-    const [manufacturers, setManufacturer] = useState('')
+    const [manufacturer, setManufacturer] = useState('')
 
     const handleSearch = () => {}
 
   return (
     <form className='searchbar' onSubmit={handleSearch}>
         <div className="searchbar__item">
-            <SearchManufacturer manufacturer={manufacturers} setManufacturer={setManufacturer}/>
+            <SearchManufacturer manufacturer={manufacturer} setManufacturer={setManufacturer}/>
         </div>
     </form>
   )

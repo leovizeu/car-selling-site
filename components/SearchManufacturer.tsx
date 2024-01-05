@@ -41,7 +41,8 @@ const SearchManufacturer = ({manufacturer, setManufacturer}:SearchManufacturerPr
             </Combobox.Option>
           ): (
             filteredManufacturer.map((item) => (
-              <Combobox.Option key={item} 
+              <Combobox.Option 
+                key={item} 
                 className={({active}) => 
                 `relative search-manufacturer__option ${active ? 'bg-primary-blue text-white' :'text-gray-900'}
                 `}
